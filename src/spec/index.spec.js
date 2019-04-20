@@ -1,5 +1,5 @@
-const NameGenerator = require("../../src/javascript/NameGenerator");
-const Randomnizer = require("../../src/javascript/Randomnizer");
+const NameGenerator = require("./NameGenerator");
+const Randomnizer = require("./Randomnizer");
 
 
 describe('randomnizer-for-winners with a common set of names and adjectives', function () {
