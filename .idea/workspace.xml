@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab0ec80-0f57-4c6b-812e-d9da7a3cbe61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/randomnizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spec/randomnizer.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stryker.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/randomnizer-for-winners.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/randomnizer-for-winners.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javascript/NameGenerator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javascript/Randomnizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javascript/WordsRepository.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spec/index.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/randomnizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/randomnizer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spec/randomnizer.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/spec/randomnizer.spec.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +14,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spec/randomnizer.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="152">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding>
-                <element signature="e#76#1351#0" />
+                <element signature="e#83#1859#0" />
+                <element signature="e#198#498#0" />
+                <element signature="e#211#493#0" />
               </folding>
             </state>
           </provider>
@@ -39,17 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/randomnizer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -86,9 +69,9 @@
         <option value="$PROJECT_DIR$/spec/randomnizer.spec.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/stryker.conf.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/js/randomnizer.js" />
         <option value="$PROJECT_DIR$/src/spec/randomnizer.spec.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -145,7 +128,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555796801862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555799236866" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="kotlin.migration.detection.enabled" value="false" />
@@ -184,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.randomnizer.random">
+  <component name="RunManager" selected="Jest.randomnizer.spec.js">
     <configuration name="randomnizer" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -211,6 +194,20 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="randomnizer.random.should generate a label" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/spec/randomnizer.spec.js" />
+      <test-names>
+        <test-name value="randomnizer.random" />
+        <test-name value="should generate a label" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="randomnizer.random.should save generated labels" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -225,32 +222,14 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="randomnizer.should not have infinite loop" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="randomnizer.spec.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
+      <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/src/spec/randomnizer.spec.js" />
-      <test-names>
-        <test-name value="randomnizer" />
-        <test-name value="should not have infinite loop" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="randomnizer.should not repeat generated label" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/spec/randomnizer.spec.js" />
-      <test-names>
-        <test-name value="randomnizer" />
-        <test-name value="should not repeat generated label" />
-      </test-names>
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.npm">
@@ -272,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.randomnizer.spec.js" />
         <item itemvalue="Jest.randomnizer.random" />
         <item itemvalue="Jest.randomnizer.random.should save generated labels" />
+        <item itemvalue="Jest.randomnizer.random.should generate a label" />
         <item itemvalue="Jest.randomnizer" />
-        <item itemvalue="Jest.randomnizer.should not have infinite loop" />
-        <item itemvalue="Jest.randomnizer.should not repeat generated label" />
       </list>
     </recent_temporary>
   </component>
@@ -307,45 +286,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="randomnizer_should_not_have_infinite_loop - 2019.04.20 at 18h 30m 56s.xml">
-      <configuration name="randomnizer.should not have infinite loop" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="randomnizer_random_should_generate_a_label - 2019.04.20 at 19h 19m 15s.xml">
+      <configuration name="randomnizer.random.should generate a label" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="randomnizer - 2019.04.20 at 18h 31m 03s.xml">
-      <configuration name="randomnizer" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="randomnizer_random_should_generate_a_label - 2019.04.20 at 19h 19m 37s.xml">
+      <configuration name="randomnizer.random.should generate a label" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="randomnizer_random - 2019.04.20 at 18h 33m 06s.xml">
+    <history-entry file="randomnizer_random_should_generate_a_label - 2019.04.20 at 19h 21m 27s.xml">
+      <configuration name="randomnizer.random.should generate a label" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="randomnizer_random - 2019.04.20 at 19h 21m 32s.xml">
       <configuration name="randomnizer.random" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="randomnizer_random - 2019.04.20 at 18h 35m 24s.xml">
+    <history-entry file="randomnizer_random - 2019.04.20 at 19h 22m 34s.xml">
       <configuration name="randomnizer.random" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="randomnizer_random_should_save_generated_labels - 2019.04.20 at 18h 38m 19s.xml">
+    <history-entry file="randomnizer_random_should_save_generated_labels - 2019.04.20 at 19h 23m 21s.xml">
       <configuration name="randomnizer.random.should save generated labels" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="randomnizer_random_should_save_generated_labels - 2019.04.20 at 18h 38m 38s.xml">
+    <history-entry file="randomnizer_random_should_save_generated_labels - 2019.04.20 at 19h 23m 40s.xml">
       <configuration name="randomnizer.random.should save generated labels" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="randomnizer_random - 2019.04.20 at 18h 38m 49s.xml">
+    <history-entry file="randomnizer_random - 2019.04.20 at 19h 23m 48s.xml">
       <configuration name="randomnizer.random" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="randomnizer_random - 2019.04.20 at 18h 39m 40s.xml">
+    <history-entry file="randomnizer_random - 2019.04.20 at 19h 25m 14s.xml">
       <configuration name="randomnizer.random" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="randomnizer_random - 2019.04.20 at 18h 39m 45s.xml">
-      <configuration name="randomnizer.random" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="randomnizer_random - 2019.04.20 at 18h 46m 10s.xml">
-      <configuration name="randomnizer.random" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="randomnizer_spec_js - 2019.04.20 at 19h 25m 17s.xml">
+      <configuration name="randomnizer.spec.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31807000" />
+    <option name="totallyTimeSpent" value="33705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1433" y="25" width="2493" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20417169" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20417169" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -354,13 +333,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32912722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37829295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37829295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4077977" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4077977" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -495,27 +474,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spec/randomnizer.spec.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding>
-            <element signature="e#76#1351#0" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/randomnizer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="19">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/spec/randomnizer.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <folding>
+            <element signature="e#83#1859#0" />
+            <element signature="e#198#498#0" />
+            <element signature="e#211#493#0" />
+          </folding>
         </state>
       </provider>
     </entry>
