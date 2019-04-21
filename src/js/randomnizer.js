@@ -1,11 +1,32 @@
+const fs = require('fs');
+
+const randomNumber = (max, math = Math) => {
+  return math.floor(math.random() * math.floor(max));
+};
+
+const readLinesFromFile = (repo = fs, path) => {
+  const contentBuffer = repo.readFileSync(path);
+  return contentBuffer.toString().split('\n');
+};
+
+const readRandomLineFromFile = (repo, path, getRandomNumber = randomNumber) => {
+  const lines = readLinesFromFile(repo, path);
+  return lines[getRandomNumber(lines.length)];
+};
+
 const defaultActions = {
-  getRandomNameCallback: () => {
+  getRandomNameCallback: (dao = fs, getRandomNumber) => {
+    return readRandomLineFromFile(dao,'names', getRandomNumber)
   },
-  getRandomWordCallback: () => {
+  getRandomWordCallback: (dao = fs, getRandomNumber) => {
+    return readRandomLineFromFile(dao,'words', getRandomNumber)
   },
-  existsLabelCallback: () => {
+  existsLabelCallback: (label, dao = fs) => {
+    const lines = readLinesFromFile(dao, 'labels');
+    return lines.includes(label);
   },
-  saveLabelCallback: () => {
+  saveLabelCallback: (label, dao = fs) => {
+    dao.appendFileSync('labels', Buffer.from(label+'\n'));
   },
 };
 
@@ -13,7 +34,7 @@ const random = (actions = defaultActions) => {
   const MAX_ATTEMPTS = 1000;
 
   const generateRandomName = (maxAttempts) => {
-    if (--maxAttempts === 0) throw 'not possible to generate a label';
+    if (--maxAttempts === 0) return 'not possible to generate a label';
 
     const label = `${actions.getRandomNameCallback()} ${actions.getRandomWordCallback()}`;
 
@@ -28,4 +49,4 @@ const random = (actions = defaultActions) => {
   return generateRandomName(MAX_ATTEMPTS)
 };
 
-module.exports = { random, defaultActions };
+module.exports = { random, defaultActions, randomNumber };
